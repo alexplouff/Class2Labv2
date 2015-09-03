@@ -19,7 +19,6 @@ public class WelcomeClass {
     }
     
     public final void setWelcomeMessage(){
-        System.out.println("Hour of day" + hourOfDay);
         if(hourOfDay < 12){
             welcomeMessage = "Good Morning ";
         } else if (hourOfDay <18){
